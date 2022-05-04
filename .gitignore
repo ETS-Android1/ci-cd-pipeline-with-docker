@@ -1,0 +1,10 @@
+# Ignore everything in this file
+target/
+.classpath
+.settings
+.project
+*.i??
+.idea/
+.gradle/
+/build
+/local.properties
