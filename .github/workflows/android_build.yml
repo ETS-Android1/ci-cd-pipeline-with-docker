@@ -29,4 +29,4 @@ jobs:
         java-version: 1.8
         
     - name: Build Project
-      run: ./build.gradle
+      run: ./build.gradle 
