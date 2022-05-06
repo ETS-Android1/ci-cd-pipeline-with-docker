@@ -42,7 +42,7 @@ public class PersistentAccountDAO implements AccountDAO {
 
         System.out.println("account list ids");
         while(cursor.moveToNext()){
-            accountNumbers.add(cursor.getString(cursor.getColumnIndex(ACCOUNT_KEY_ACCOUNT_NO)));
+            accountNumbers.add(cursor.getString(cursor.getColumnIndexOrThrow(ACCOUNT_KEY_ACCOUNT_NO)));
         }
         return accountNumbers;
     }
@@ -88,10 +88,10 @@ public class PersistentAccountDAO implements AccountDAO {
 
     private Account getCursorAccount(Cursor cursor){
         return new Account(
-                cursor.getString(cursor.getColumnIndex(ACCOUNT_KEY_ACCOUNT_NO)),
-                cursor.getString(cursor.getColumnIndex(ACCOUNT_KEY_BANK_NAME)),
-                cursor.getString(cursor.getColumnIndex(ACCOUNT_KEY_ACCOUNT_HOLDER_NAME)),
-                cursor.getDouble(cursor.getColumnIndex(ACCOUNT_KEY_BALANCE))
+                cursor.getString(cursor.getColumnIndexOrThrow(ACCOUNT_KEY_ACCOUNT_NO)),
+                cursor.getString(cursor.getColumnIndexOrThrow(ACCOUNT_KEY_BANK_NAME)),
+                cursor.getString(cursor.getColumnIndexOrThrow(ACCOUNT_KEY_ACCOUNT_HOLDER_NAME)),
+                cursor.getDouble(cursor.getColumnIndexOrThrow(ACCOUNT_KEY_BALANCE))
         );
     }
 
