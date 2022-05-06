@@ -16,7 +16,7 @@ import lk.ac.mrt.cse.dbs.simpleexpensemanager.control.PersistentExpenseManager;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.exception.InvalidAccountException;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.ExpenseType;
 
-public class PersistentAccountDAOTest {
+public class AccountTransactionUnitTest {
     private static final String TEST_ACCOUNT_NO = "12345sdf";
     private static final String TEST_BANK_ACCOUNT_NAME = "BOC";
     private static final String TEST_ACCOUNT_HOLDER_NAME = "Ayesh";
@@ -59,7 +59,7 @@ public class PersistentAccountDAOTest {
     @Test
     public void addTransaction() {
         int initialLogsCount = expenseManager.getTransactionLogs().size();
-//        System.out.println(initialLogsCount);
+        System.out.println(initialLogsCount);
         Log.e("initial logs count :",initialLogsCount+"");
         try {
             expenseManager.updateAccountBalance(TEST_ACCOUNT_NO, TEST_DAY, TEST_MONTH, TEST_YEAR, TEST_EXPENSE_TYPE, TEST_AMOUNT);
@@ -69,7 +69,7 @@ public class PersistentAccountDAOTest {
         }
         int endLogsCount = expenseManager.getTransactionLogs().size();
         Log.d("end logs count :",endLogsCount+"");
-//        assertTrue(endLogsCount + 1 == initialLogsCount);
+        assertTrue(endLogsCount + 1 == initialLogsCount);
     }
 
 }

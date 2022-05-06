@@ -7,7 +7,7 @@ import org.junit.Test;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Account;
 
 
-public class AccountTest {
+public class AccountUnitTest {
     private static final String TEST_ACCOUNT_NO = "12345sdf";
     private static final String TEST_BANK_ACCOUNT_NAME = "BOC";
     private static final String TEST_ACCOUNT_HOLDER_NAME = "Ayesh";
@@ -15,7 +15,7 @@ public class AccountTest {
 
     private Account newAccount;
 
-    public AccountTest() {
+    public AccountUnitTest() {
         newAccount = new Account(TEST_ACCOUNT_NO, TEST_BANK_ACCOUNT_NAME, TEST_ACCOUNT_HOLDER_NAME, TEST_ACCOUNT_BALANCE);
     }
 

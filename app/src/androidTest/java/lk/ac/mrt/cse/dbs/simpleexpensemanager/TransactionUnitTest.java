@@ -9,7 +9,7 @@ import java.text.SimpleDateFormat;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.ExpenseType;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Transaction;
 
-public class TransactionTest {
+public class TransactionUnitTest {
     SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
     private static final String TEST_DATE = "2022-01-01";
     private static final String TEST_ACCOUNT_NO = "12345sdf";
@@ -17,7 +17,7 @@ public class TransactionTest {
     private static final double TEST_AMOUNT= 100.0;
 
     private Transaction transaction;
-    public TransactionTest() {
+    public TransactionUnitTest() {
         try{
             transaction = new Transaction(sdf.parse(TEST_DATE), TEST_ACCOUNT_NO, TEST_EXPENSE_TYPE, TEST_AMOUNT);
         }catch (Exception e){
