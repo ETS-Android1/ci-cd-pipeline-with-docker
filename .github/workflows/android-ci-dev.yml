@@ -26,8 +26,8 @@ jobs:
         run: ./gradlew build --stacktrace
 
 
-      - name: Run unit tests
-        run: ./gradlew connectedAndroidTest --info
+#       - name: Run unit tests
+#         run: ./gradlew connectedAndroidTest --info
 
 
 
