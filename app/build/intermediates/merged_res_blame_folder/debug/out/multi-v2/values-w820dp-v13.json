@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Engineering\\ACADEMIC\\SEM-4\\mystudy\\software enginnering\\ci-cd-pipelines\\SimpleExpenseManager-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "D:\\Engineering\\ACADEMIC\\SEM-4\\mystudy\\software enginnering\\ci-cd-pipeline-version-2\\ci-cd-pipeline-with-docker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "D:\\Engineering\\ACADEMIC\\SEM-4\\mystudy\\software enginnering\\ci-cd-pipelines\\SimpleExpenseManager-master\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "source": "D:\\Engineering\\ACADEMIC\\SEM-4\\mystudy\\software enginnering\\ci-cd-pipeline-version-2\\ci-cd-pipeline-with-docker\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "from": {
                         "startLines": "20",
                         "startColumns": "4",
-                        "startOffsets": "977",
+                        "startOffsets": "997",
                         "endColumns": "57",
-                        "endOffsets": "1030"
+                        "endOffsets": "1050"
                     },
                     "to": {
                         "startLines": "2",
