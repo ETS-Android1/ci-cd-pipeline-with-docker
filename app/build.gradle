@@ -18,7 +18,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 26
-    //buildToolsVersion "23.0.2"
+//    buildToolsVersion "23.0.2"
 
     defaultConfig {
         applicationId "lk.ac.mrt.cse.dbs.simpleexpensemanager"
@@ -37,10 +37,15 @@ android {
 }
 
 dependencies {
+    testImplementation 'org.testng:testng:6.9.6'
+
     //androidx
     androidTestImplementation 'androidx.test:core:1.4.1-alpha06'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4-alpha06'
     androidTestImplementation 'androidx.test:runner:1.5.0-alpha03'
+//    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+//        exclude group: 'com.android.support', module: 'support-annotations'
+//    })
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 //    testImplementation 'junit:junit:4.12'

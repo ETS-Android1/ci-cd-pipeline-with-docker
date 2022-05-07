@@ -1,10 +1,10 @@
 lk/ac/mrt/cse/dbs/simpleexpensemanager/TransactionUnitTest.java
  lk.ac.mrt.cse.dbs.simpleexpensemanager.TransactionUnitTest
-lk/ac/mrt/cse/dbs/simpleexpensemanager/AccountTransactionUnitTest.java
- lk.ac.mrt.cse.dbs.simpleexpensemanager.AccountTransactionUnitTest
+lk/ac/mrt/cse/dbs/simpleexpensemanager/ApplicationTest.java
+ lk.ac.mrt.cse.dbs.simpleexpensemanager.ApplicationTest
 lk/ac/mrt/cse/dbs/simpleexpensemanager/AccountUnitTest.java
  lk.ac.mrt.cse.dbs.simpleexpensemanager.AccountUnitTest
 lk/ac/mrt/cse/dbs/simpleexpensemanager/test/BuildConfig.java
  lk.ac.mrt.cse.dbs.simpleexpensemanager.test.BuildConfig
-lk/ac/mrt/cse/dbs/simpleexpensemanager/ApplicationTest.java
- lk.ac.mrt.cse.dbs.simpleexpensemanager.ApplicationTest
+lk/ac/mrt/cse/dbs/simpleexpensemanager/AccountTransactionUnitTest.java
+ lk.ac.mrt.cse.dbs.simpleexpensemanager.AccountTransactionUnitTest
